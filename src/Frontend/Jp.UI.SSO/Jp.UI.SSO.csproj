@@ -42,6 +42,8 @@
     <Folder Include="Assets\templates\" />
     <Content Include="Assets\css\custom-style.css" />
     <Folder Include="Services\" />
+    <Folder Include="wwwroot\lib\" />
+    <Folder Include="wwwroot\lib\rtl\" />
     <ProjectReference Include="..\..\Backend\Jp.Database\Jp.Database.csproj" />
     <ProjectReference Include="..\..\Backend\Jp.Ldap\Jp.Ldap.csproj" />
   </ItemGroup>

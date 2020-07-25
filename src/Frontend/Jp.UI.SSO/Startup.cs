@@ -7,6 +7,7 @@ using JPProject.Domain.Core.ViewModels;
 using JPProject.Sso.AspNetIdentity.Configuration;
 using JPProject.Sso.AspNetIdentity.Models.Identity;
 using JPProject.Sso.EntityFramework.Repository.Configuration;
+using Jwks.Manager.Jwks;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -63,6 +64,7 @@ namespace Jp.UI.SSO
             services
                 .AddIdentity<UserIdentity, RoleIdentity>(AccountOptions.NistAccountOptions)
                 .AddClaimsPrincipalFactory<ApplicationClaimsIdentityFactory>()
+               
                 .AddEntityFrameworkStores<SsoContext>()
                 .AddDefaultTokenProviders();
 

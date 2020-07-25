@@ -117,40 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Body-Application-access" xml:space="preserve">
-    <value>Πρόσβαση σε εφαρμογές</value>
+  <data name="Info" xml:space="preserve">
+    <value>شما دستگاه را با موفقیت مجاز کرده اید</value>
   </data>
-  <data name="Body-ConfirmAuthCode" xml:space="preserve">
-    <value>Επιβεβαιώστε ότι στην αίτηση εξουσιοδότησης αναφέρεται ο κωδικός</value>
+  <data name="Success" xml:space="preserve">
+    <value>موفق</value>
   </data>
-  <data name="Body-Consent" xml:space="preserve">
-    <value>Συγκατάθεση</value>
-  </data>
-  <data name="Body-grant!" xml:space="preserve">
-    <value>Αποεπιλέξτε τα δικαιώματα που δεν επιθυμείτε να χορηγήσετε!</value>
-  </data>
-  <data name="Body-is requesting your permission" xml:space="preserve">
-    <value>ζητά την άδειά σας</value>
-  </data>
-  <data name="Body-No-Do-Not-Allow" xml:space="preserve">
-    <value>Να μην επιτρέπεται</value>
-  </data>
-  <data name="Body-Personal-information" xml:space="preserve">
-    <value>Προσωπικές πληροφορίες</value>
-  </data>
-  <data name="Body-Remember-My-Decision" xml:space="preserve">
-    <value>Θυμήσου την επιλογή μου</value>
-  </data>
-  <data name="Body-Yes-Allow" xml:space="preserve">
-    <value>Ναι επέτρεψε</value>
-  </data>
-  <data name="Menu-Authorize-Application" xml:space="preserve">
-    <value>Εξουσιοδότηση εφαρμογής</value>
+  <data name="Title-Device" xml:space="preserve">
+    <value>دستگاه</value>
   </data>
   <data name="Title-Home" xml:space="preserve">
-    <value>Αρχική</value>
+    <value>خانه</value>
   </data>
   <data name="Title-User" xml:space="preserve">
-    <value>Χρήστης</value>
+    <value>کاربر</value>
   </data>
 </root>

@@ -17,18 +17,19 @@ namespace Jp.UI.SSO.Configuration
                             {
                                 var supportedCultures = new[]
                                 {
-                                    new CultureInfo("pt-BR"),
-                                    new CultureInfo("en"),
-                                    new CultureInfo("zh-TW"),
-                                    new CultureInfo("zh-CN"),
-                                    new CultureInfo("es"),
-                                    new CultureInfo("nl"),
-                                    new CultureInfo("fr"),
-                                    new CultureInfo("ru"),
-                                    new CultureInfo("el-GR"),
+                                //    new CultureInfo("pt-BR"),
+                                   new CultureInfo("fa-IR"),
+                                 //   new CultureInfo("en"),
+                               //     new CultureInfo("zh-TW"),
+                               //     new CultureInfo("zh-CN"),
+                               //     new CultureInfo("es"),
+                               //     new CultureInfo("nl"),
+                               //     new CultureInfo("fr"),
+                               //     new CultureInfo("ru"),
+                               //     new CultureInfo("el-GR"),
                                 };
 
-                                opts.DefaultRequestCulture = new RequestCulture("en");
+                                opts.DefaultRequestCulture = new RequestCulture("fa-IR");
                                 opts.SupportedCultures = supportedCultures;
                                 opts.SupportedUICultures = supportedCultures;
                             });

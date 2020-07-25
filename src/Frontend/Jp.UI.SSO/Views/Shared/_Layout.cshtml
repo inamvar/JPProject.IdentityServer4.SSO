@@ -16,11 +16,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="description" content="JP Project - Open Source IdentityServer4 Admin">
-    <meta name="author" content="Bruno Brito">
-    <meta name="keyword" content="ID4,IdentityServer4,AdminUI,UserManagement,Open,Source,MicroService,Identity,SSO">
+    <meta name="description" content="داریک سافت - سیستم احراز هویت کاربران">
+    <meta name="author" content="Iman Namvar">
+    <meta name="keyword" content="ID4,IdentityServer4,AdminUI,UserManagement,Open,Source,MicroService,Identity,SSO,داریک,داریک سافت,آسانا,حسابداری">
+    <title>داریک سافت - سیستم احراز هویت کاربران</title>
     <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
-    <title>JP Project - Open Source IdentityServer4 Admin</title>
+
     <!-- Icons-->
     <link href="@Url.Content("~/css/jp.min.css")" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="@Url.Content("~/images/favicon/apple-touch-icon.png")">
@@ -28,15 +29,14 @@
     <link rel="icon" type="image/png" sizes="16x16" href="@Url.Content("~/images/favicon/favicon-16x16.png")">
     <link rel="manifest" href="@Url.Content("~/images/favicon/site.webmanifest.json")">
     <link rel="mask-icon" href="@Url.Content("~/images/favicon/safari-pinned-tab.svg")" color="#5bbad5">
+    <link rel="stylesheet" href="~/lib/rtl/bootstrap-rtl.css" />
+    <link href="@Url.Content("~/css/font-vazir.css")" rel="stylesheet">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     @*<script asp-append-version="true" crossorigin="anonymous" src="~/js/app.insights.js"></script>*@
 </head>
-<body>
-    <div class="bg-marketing text-center text-white p-3">
-        💪💪💪 Please help us on Github. Give us a star ⭐️ 🙏🙏 ➡
-        <iframe src="https://ghbtns.com/github-btn.html?user=brunohbrito&repo=JPProject.IdentityServer4.SSO&type=star" frameborder="0" scrolling="0" width="160px" height="20px"></iframe>
-    </div>
+<body dir="rtl">
+
     <div class="app sidebar-fixed footer-fixed aside-menu-fixed">
         <header class="app-header navbar">
             <a class="navbar-brand" href="#">
@@ -50,39 +50,39 @@
                 </div>
             </a>
             <ul class="nav navbar-nav ml-auto">
-                @await Html.PartialAsync("_SelectLanguagePartial")
+             @*   @await Html.PartialAsync("_SelectLanguagePartial")*@
                 <li class="nav-item dropdown">
-                    <a class="nav-link d-none d-md-block" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link  d-md-block" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                         <img class="img-avatar" src="@Url.Content(image)" alt="@name">@name
                     </a>
                     <a class="nav-link d-md-none" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                         <img class="img-avatar" src="@Url.Content(image)" alt="@name">
                     </a>
-                    <div class="dropdown-menu dropdown-menu-right">
+                    <div class="dropdown-menu dropdown-menu-left">
                         <div class="dropdown-header text-center">
-                            <strong>Account</strong>
+                            <strong>حساب کاربری</strong>
                         </div>
                         <a class="dropdown-item"
                            asp-action="Index"
                            asp-controller="Grants">
                             <i class="fa fa-tasks"></i>
-                            <span>Grants</span>
+                            <span>مجوزها</span>
                         </a>
 
                         <a class="dropdown-item"
                            asp-action="Logout"
                            asp-controller="Account">
-                            <i class="fa fa-lock"></i> Logout
+                            <i class="fa fa-lock"></i> خروج
                         </a>
-                        <div class="dropdown-header text-center">
-                            <strong>Settings</strong>
-                        </div>
-                        <a class="dropdown-item"
+@*                        <div class="dropdown-header text-center">
+                            <strong>تنظیکات</strong>
+                        </div>*@
+    @*                    <a class="dropdown-item"
                            asp-action="Index"
                            asp-controller="Diagnostics">
                             <i class="fa fa-server"></i>
                             <span>Diagnostic</span>
-                        </a>
+                        </a>*@
                     </div>
                 </li>
             </ul>
@@ -97,16 +97,13 @@
         </div>
         <footer class="app-footer">
             <div>
-                <a href="https://github.com/brunohbrito/JP-Project" target="_blank"><img class="icon logo-min" src="@Url.Content("~/images/brand/logo.png")"></a>&nbsp;
-                <span>@SsoVersion.Current &copy; 2018.</span>
-            </div>
-            <div class="ml-auto">
-                <span>Powered by</span>
-                <a href="https://coreui.io">CoreUI</a>
+                <a href="https://www.dariksoft.com" target="_blank">داریک سافت</a>&nbsp;
+                <span>@SsoVersion.Current &copy; 2020.</span>
             </div>
         </footer>
     </div>
     <script src="@Url.Content("~/js/jp.min.js")"></script>
+    <script src="~/lib/rtl/js/bootstrap.bundle.min.js"></script>
     @RenderSection("scripts", required: false)
 </body>
 </html>
