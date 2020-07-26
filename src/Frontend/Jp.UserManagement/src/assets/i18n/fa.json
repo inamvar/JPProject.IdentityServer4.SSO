@@ -1,0 +1,113 @@
+{
+    "app": {
+        "ANGULAR-BLOG": "حساب کاربری داریک سافت",
+        "CLI": "CLI Documentation",
+        "HELP-YOU": "Here are some links to help you start:",
+        "HEROES": "Tour of Heroes",
+        "WELCOME-TO": "خوش آمدید به "
+    },
+    "confirm-email": {
+        "E-MAIL-CONFIRMATION": "تاییدیه ایمیل",
+        "SUCCESS": "موفق",
+        "THANK-YOU.": "سپاسگزاریم",
+        "VALIDATING-E-MAIL": "ارزیابی ایمیل"
+    },
+    "error": {
+        "404": "404",
+        "500": "500",
+        "OOPS": "اوه! شما گم شدید",
+        "PAGE-NOT-FOUND": "صفحه درخواستی شما پیدا نشد",
+        "PROBLEM": "ظاهرا مشکلی داریم!",
+        "UNAVAILABLE": "صفحه درخواستی شما  موقتا موجود نیست!"
+    },
+    "general": {
+        "AVAILABLE-LANGUAGES": "زبان ها",
+        "LOGIN": "ورود",
+        "NO": "خیر",
+        "SEARCH": "جستجو",
+        "YES": "بله"
+    },
+    "home": {
+        "LEARN-MORE": "بیشتر",
+        "MANAGEMENT": "در برنامه مدیریت حساب کاربری داریک سافت میتوانید کلمه عبور خود را تغییر دهید یا مشخصات پروفایلتان را بروز کنید",
+        "WELCOME": "خوش آمدید!"
+    },
+    "login": {
+        "LOADING": "لطفا کمی صبر کنید. در حال دریافت اطلاعات از سرور ...",
+        "REGISTER-NOW": "ثبت نام کنید!",
+        "SIGN-UP": "نام نویسی"
+    },
+    "login-callback": {
+        "LOADING": "بارگذاری اطلاعات کاربر"
+    },
+    "recover": {
+        "CHECK": "ایمیلتان را بررسی نمایید",
+        "RECOVER": "بازیابی رمز عبور",
+        "RESET": "ارسال لینک بازنشانی",
+        "SENDING-EMAIL": "درحال ارسال ایمیل",
+        "SUCCESS": "موفق",
+        "USERNAME-EMAIL": "لطفا ایمیل یا نام کاربری را وارد نمایید"
+    },
+    "register": {
+        "CREATE-ACCOUNT": "حساب کاربریتان را بررسی نمایید",
+        "FACEBOOK": "Facebook",
+        "GOOGLE+": "Google+",
+        "REGISTER": "ثبت نام"
+    },
+    "reset-password": {
+        "RESET": "بازنشانی",
+        "RESET-PASSWORD": "بازنشانی رمز عبور"
+    },
+    "unauthorized": {
+        "ADMINISTRATOR": "با مدیریت تماس بگیرید",
+        "DO-NOT-ACCESS": "شما به این بخش دسترسی ندارید",
+        "UNAUTHORIZED": "غیر مجاز"
+    },
+    "user": {
+        "account": {
+            "ARE-YOU-SURE": "آیا مطمئن هستید؟",
+            "CONFIRM-PASSWORD": "تکرار رمز عبور",
+            "CREATE-PASSWORD": "ایجاد رمز عبور",
+            "CURRENT-PASSWORD": "رمز عبور جاری",
+            "DELETE-ACCOUNT": "حذف حساب کاربری",
+            "DELETE-CONFIRMATION": "قبل از حذف حساب کاربری از شما سوال خواهد شد",
+            "NEW-PASSWORD": "رمز عبور جدید",
+            "REMOVE-ACCOUNT": "حذف حساب",
+            "TITLE": "حساب کاربری",
+            "UPDATE-PASSWORD": "تغییر رمز عبور"
+        },
+        "history": {
+            "CATEGORY": "دسته بندی",
+            "ACTION": "عملیات",
+            "DETAILS": "جزییات",
+            "TITLE": "لاگ ها",
+            "WHEN": "زمان",
+            "WHO": "عامل"
+        },
+        "profile": {
+            "BIO": "بیوگرافی",
+            "CHOOSE-FILE": "فایل را انتخاب نمایید",
+            "COMPANY": "کسب و کار",
+            "JOB TITLE": "عنوان شغلی",
+            "NAME": "نام",
+            "PHONE NUMBER": "شماره تلفن",
+            "PICTURE": "عکس",
+            "PROFILE": "پروفایل",
+            "UPDATE-SETTINGS": "تغییر تنظیمات",
+            "UPLOAD": "آپلود",
+            "URL": "URL"
+        }
+    },
+    "validations": {
+        "minlength": "کوتاه است",
+        "required": "فیلد الزامیست",
+        "equalToPassword": "رمز عبور با تکرار آن همخوانی ندارد",
+        "confirmPassword": "تکرار رمز عبور",
+        "email": "ایمیل نامعتبر است",
+        "equalToEmail": "ایمیل برابر نیست",
+        "invalidUserOrPassword": "نام کاربری یا رمز عبور صحیح نیست",
+        "notEqualToPassword": "رمز عبور جدید باید متفاوت با رمز فعلی باشد",
+        "emailExist": "آدرس ایمیل قبلا ثبت شده است",
+        "usernameExist": "نام کاربری قبلا ثبت شده است"
+    }
+}

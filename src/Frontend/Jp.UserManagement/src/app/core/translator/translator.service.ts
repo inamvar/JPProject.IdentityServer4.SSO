@@ -6,9 +6,10 @@ import { TranslateService } from "@ngx-translate/core";
 })
 export class TranslatorService {
 
-    private defaultLanguage = "en";
+    private defaultLanguage = "fa";
 
     private availablelangs = [
+        { code: "fa", text: "English" },
         { code: "en", text: "English" },
         { code: "pt", text: "Portuguese" },
         { code: "fr", text: "French" },

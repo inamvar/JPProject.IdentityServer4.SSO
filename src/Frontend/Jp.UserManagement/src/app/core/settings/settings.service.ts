@@ -23,8 +23,8 @@ export class SettingsService {
         // App Settings
         // -----------------------------------
         this.app = {
-            name: "JP Project",
-            description: "User Management UI",
+            name: "حساب داریک سافت",
+            description: "مدیریت حساب کاربری",
             year: ((new Date()).getFullYear()),
             docLoaded: false,
             version: "1.4.5"
